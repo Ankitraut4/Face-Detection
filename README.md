@@ -3,6 +3,10 @@
 
 This project detects the number of faces in an image using OpenCV's Java library. The program reads an image file, detects faces within the image, and outputs the image with rectangles around detected faces.
 
+
+![image](https://github.com/user-attachments/assets/182f4cb1-f798-4cf8-a5e2-59b0e531c446)
+
+
 Table of Contents
     
     Introduction
