@@ -11,7 +11,7 @@ public class Main {
 
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
 
-        String imFile="images/WhatsAppImag.jpeg";
+        String imFile="images/test.jpg";
         Mat src= Imgcodecs.imread(imFile);
 
         String xmlFile="xml/lbpcascade_frontalface.xml";
@@ -27,7 +27,7 @@ public class Main {
                     new Scalar(0,0,225),5);
         }
 
-        Imgcodecs.imwrite("images/WhatsAppImag.jpeg",src);
+        Imgcodecs.imwrite("images/test.jpg",src);
         System.out.println("Image Detected Finished");
     }
 }
