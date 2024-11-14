@@ -27,7 +27,7 @@ Setup
 
 2]Download and set up the OpenCV library for Java in your project.
 
-3]Place your target image in the images/ directory, named WhatsAppImag.jpeg (or modify the code to read any image file).
+3]Place your target image in the images/ directory,  (or modify the code to read any image file).
 
 4]Ensure the xml/lbpcascade_frontalface.xml classifier file is included. This is used for the face detection algorithm.
 
